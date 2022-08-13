@@ -1,9 +1,9 @@
 # error handler
-```
+
 
 paste this code in index.js or your code file
 
-
+```
 process.on('unhandledRejection', (reason, p) => {
     console.log('ignore that log'.gray);
   });
@@ -22,8 +22,8 @@ process.on('unhandledRejection', (reason, p) => {
   process.on('multipleResolves', (type, promise, reason) => {
     console.log('ignore that log'.gray);
   });
-
+```
 this prevents to stop bot automatically when its get error in console
 
 
-```
+
