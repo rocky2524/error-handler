@@ -1,5 +1,5 @@
 # error handler
-
+```
 
 paste this code in index.js or your code file
 
@@ -24,3 +24,6 @@ process.on('unhandledRejection', (reason, p) => {
   });
 
 this prevents to stop bot automatically when its get error in console
+
+
+```
